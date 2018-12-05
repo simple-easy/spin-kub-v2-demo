@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: lcd001/spin-kub-v2-demo:release-1.6.1
+        image: lcd001/spin-kub-v2-demo:release-1.4.0
         ports:
         - containerPort: 8000
         readinessProbe:
